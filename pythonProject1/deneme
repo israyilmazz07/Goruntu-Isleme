@@ -1,0 +1,7 @@
+import cv2
+import numpy as np
+
+insan=cv2.imread("insan.png",0)
+cv2.imshow("resim",insan)
+cv2.waitkey()
+
